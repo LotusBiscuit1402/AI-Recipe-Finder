@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Recipe Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="header">
+    <h1>Welcome to the AI Recipe Finder</h1>
+    <p>Use the ingredients you have to discover delicious recipes.</p>
+  </div>
+
+  <div class="layout">
+    <div class="left">
+
+      {% if matched_recipes and not selected_recipe %}
+        <form method="post" class="card">
+          <h2>Here are matching recipes to your ingredients</h2>
+
+          <ul class="option-list">
+            {% for r in matched_recipes %}
+              <li>
+                <label class="option-row">
+                  <input
+                    type="radio"
+                    name="selected_index"
+                    value="{{ loop.index0 }}"
+                  >
+                  {{ r.name }}
+                </label>
+              </li>
+            {% endfor %}
+          </ul>
+
+          <input type="hidden" name="ingredients" value="{{ request.form.get('ingredients','') }}">
+
+          <button class="btn btn-primary" type="submit">Select Recipe</button>
+        </form>
+      {% endif %}
+
+      {% if selected_recipe %}
+        <div class="card">
+          <h2>{{ selected_recipe.name }}</h2>
+          <h3>Ingredients</h3>
+          <ul>
+            {% for ing in selected_recipe.ingredients %}
+              <li>{{ ing }}</li>
+            {% endfor %}
+          </ul>
+          <h3>Instructions</h3>
+          <p>{{ selected_recipe.instructions | safe}}</p>
+        </div>
+      {% endif %}
+
+
+      {% if ai_recipe %}
+        <div class="card">
+          <h2>AI‑Generated Recipe</h2>
+          <pre class="ai-block">{{ ai_recipe | safe }}</pre>
+        </div>
+      {% endif %}
+
+
+      <form method="post" class="search-row">
+        <input type="text" name="ingredients" placeholder="Enter Ingredients Here..." value="{{ request.form.get('ingredients','') }}" required>
+        <button class="btn" type="submit">Find Recipe</button>
+      </form>
+
+      <p class="hint">Enter the ingredients you have, separated by commas</p>
+    </div>
+
+    <div class="right">
+      <div class="panel">
+        <div class="panel-title">Popular Recipes</div>
+
+        <div class="scroll">
+          {% for r in recipes %}
+            <div class="pop-card">
+              <div class="pop-name">{{ r.name }}</div>
+              <div class="divider"></div>
+
+              <div class="mini-title">Ingredients</div>
+              <ul class="mini-list">
+                {% for ing in r.ingredients %}
+                  <li>{{ ing }}</li>
+                {% endfor %}
+              </ul>
+
+              <div class="mini-title">Instructions</div>
+              <div class="mini-text">{{ r.instructions | safe }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+<footer>
+<p>Made By Andreas</p>
+</footer>
