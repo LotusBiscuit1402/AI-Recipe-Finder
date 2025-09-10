@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Mac and Cheese",
+        "ingredients": ["pasta", "milk", "flour", "salt", "mozarella", "parmesan", "cheddar", "butter", "garlic", "pepper", "cornstarch", "stock", "panko"],
+        "instructions": "Cook pasta in salted water until al dente, then drain and rinse. Preheat oven to 190&deg;C (375&deg;F). In a large ovenproof skillet, melt butter, toast Panko breadcrumbs until golden, then set aside. In the same skillet, melt more butter, sauté garlic, whisk in flour, and cook 2 minutes. Gradually whisk in milk, bring to a boil, then thicken with cornstarch mixed in a little milk. Season with salt, pepper, and bouillon powder. Remove from heat, stir in cheddar, parmesan, and mozzarella until melted. Toss pasta in sauce, top with breadcrumbs and extra parmesan, then broil 10–15 minutes until golden."
+    },
+    {
+        "name": "Chicken",
+        "ingredients": ["Butter", "Garlic", "tomato paste", "Heavy cream", "Chicken Broth", "Thyme", "Diced tomatoes", "salt"],
+        "instructions": "Cook the garlic, butter, and tomato paste gently over low heat to build flavor. Whisk in the heavy cream, chicken broth, and thyme, then let the sauce simmer until it thickens. (If you’re air‑frying the chicken, start it now.) Remove the thyme sprigs, stir in the drained tomatoes, and nestle the cooked chicken into the sauce. Spoon the sauce over the chicken and simmer a few minutes more until everything is hot and coated. Serve."
+    },
+    {
+        "name": "Spaghetti Bolognese",
+        "ingredients": ["Beef", "Thyme", "Bay leaves", "Sugar", "Beef Cube Stock", "Tomato Paste", "Red Wine", "Canned Tomatoes", "Worcestershire Sauce"],
+        "instructions": "Sauté the garlic and onion in a pan for about 3 minutes until softened. Add the beef and cook for 2 minutes, breaking it up as it browns. Stir in the remaining ingredients, then let the sauce simmer—at least 20 minutes for a quick midweek meal, or up to 3 hours for rich, tender beef and deep flavor."
+    },
+    {
+        "name": "Salmon",
+        "ingredients": ["Salmon", "Olive oil", "Dijon", "Lemon", "Garlic Powder", "freshly cracked black pepper", "sea salt", "Parsley"],
+        "instructions": "Oil the basket of your air fryer and arrange the salmon fillets in a single layer, leaving space for air to circulate. In a small bowl, whisk together the lemon Dijon glaze ingredients and gently brush over each fillet. Air fry at 200&deg;C (400&deg;F) for 7–10 minutes, depending on fillet thickness and your air fryer type—basket models usually take closer to 10 minutes, while toaster oven-style models cook in about 7–8 minutes. The salmon is ready when it flakes easily with a fork and reaches an internal temperature of 63&deg;C (145&deg;F). Serve hot, topped with lemon zest and juice, and garnish with fresh parsley or extra lemon slices if desired."
+    },
+    {
+        "name": "Chicken Fajitas",
+        "ingredients": ["Boneless skinless chicken breasts", "medium onion", "lime", "bell peppers", "olive oil", "chili powder", "salt", "smoked paprika", "onion powder", "black pepper", "cumin"],
+        "instructions": "Mix together the fajita seasoning blend, then cut the chicken and vegetables into strips. Heat olive oil in a large pan over medium-high heat and cook the chicken in two smaller batches to avoid overcrowding, ensuring it browns nicely. Once cooked through, add the vegetables to the pan and sauté until tender-crisp. (Alternatively, you can cook the chicken and vegetables on the grill.) Fill warm tortillas with the chicken and vegetables, then add your favorite toppings. For a milder flavor, you can soak the sliced onions in cold water while prepping the other ingredients to reduce their sharpness."
+    },
+    {
+        "name": "Lasagna",
+        "ingredients": ["Onion", "Garlic", "Carrot", "Celery", "beef", "canned tomato", "tomato paste", "red wine", "beef boillon cubes", "bay leaves", "thyme", "oregano", "Worcestershire Sauce"],
+        "instructions": "To make the lasagna, begin by preparing a rich meat sauce similar to Bolognese, cooking it long and slow to deepen the flavor and make the beef tender. On the base of your baking dish, smear a thin layer of meat sauce to prevent the pasta sheets from slipping. For the first layer, add pasta sheets, top with meat sauce, and a little white (béchamel) sauce. For the second layer, repeat with more pasta sheets, meat sauce, and white sauce. For the third layer, repeat again with pasta, meat sauce, and white sauce. Finish with a final layer of pasta sheets, pour over the remaining white sauce, and generously sprinkle with cheese. Bake until golden and bubbling."
+    },
+    {
+        "name": "Double Chocolate Muffins",
+        "ingredients": ["All purpose flour", "granulated sugar", "cocoa powder", "Baking Soda", "Salt", "semi sweet chocolate chips", "eggs", "full fat sour cream", "vegetable oil", "whole milk", "pure vanilla extract"],
+        "instructions": "Preheat the oven to 425&deg;F (218&deg;C) and prepare a 12-count muffin pan with nonstick spray or liners (this recipe makes about 14 muffins, so have a second pan ready or bake in batches). In a large bowl, whisk together flour, sugar, cocoa powder, baking soda, salt, and chocolate chips. In a separate bowl, whisk the eggs, sour cream, oil, milk, and vanilla until smooth. Pour the wet ingredients into the dry and fold gently with a spatula until just combined; the batter will be thick. Spoon into liners, filling to the top. Bake for 5 minutes at 425&deg;F, then without removing the muffins, reduce oven temperature to 350&deg;F (177&deg;C) and bake for 15–16 minutes more, or until a toothpick inserted comes out clean. Cool for 10 minutes in the pan, then transfer to a wire rack. Store covered at room temperature for up to 5 days or refrigerate for 1 week."
+    },
+    {
+        "name": "Greek Chicken Gyros",
+        "ingredients": ["Greek Yogurt", "Lemon", "Olive Oil", "Red wine vinegar", "Garlic", "Oregano", "sweet paprika", "ground cumin", "ground coriander", "cayenne pepper", "Salt", "Pepper", "Chicken", "Pita Bread", "Tzatziki Sauce"],
+        "instructions": "Marinate chicken in a mix of Greek yogurt, lemon juice, olive oil, red wine vinegar, garlic, oregano, paprika, cumin, coriander, salt, pepper, and optional cayenne for at least 30 minutes. Heat olive oil in a skillet over medium-high and cook chicken 5 minutes per side until cooked through. Warm pita bread, spread with Tzatziki, then add chicken, tomato, cucumber, green pepper, red onion, and olives. Wrap and serve."
+    },
+    {
+        "name": "Fluffy Pancakes",
+        "ingredients": ["all purpose flour", "granulated sugar", "baking powder", "baking soda", "salt", "milk", "butter", "vanilla extract", "eggs"],
+        "instructions": "Make batter thick but pourable, smoothing out most lumps with a whisk. Preheat a non-stick pan or griddle on medium, then lower to low-medium for 2 minutes. Lightly butter and wipe away excess. Pour a quarter cup batter per pancake, starting in the center and circling out. Cook until golden underneath and bubbles form on top, then flip and cook the other side until golden brown."
+    },
+    {
+        "name": "Banana Bread Muffins",
+        "ingredients": ["cups oats", "ripe bananas", "eggs", "whole pitted dates", "baking soda"],
+        "instructions": "Get a blender, then put in 2 cups oats, 3 ripe bananas, 2 eggs, 3/4 cup whole pitted dates, and 1 teaspoon baking soda into the blender and blend until batter consistency, whilst blending ensure you mix in a little chocolate chip to add some taste. Add the batter into a muffin tray and bake at 180&deg;C, (356&deg;F) for 15 to 20 minutes, Enjoy!"
+    },
+    {
+        "name": "Overnight oats",
+        "ingredients": ["cup rolled oats", "cup milk", "cup greek yogurt", "tablespoon chia seeds", "sweetener", "vanilla extract", "baking powder", "protein powder"],
+        "instructions": "In a mason jar or container, combine 1/2 cup rolled oats, 1/2 cup milk, 1/4 cup greek yogurt, 1 tablespoon chia seeds, 1 teaspoon sweetener, vanilla extract, and 1/2 teaspoon baking powder and 25g protein powder. Stir well to combine. Cover and refrigerate overnight. In the morning, give it a good stir and enjoy cold."
+    },
+    {
+        "name": "Granola",
+        "ingredients": ["large oats", "nuts", "seeds", "salt", "cinnamon", "olive oil", "maple syrup", "vanilla extract"],
+        "instructions": "preheat the over to 175&deg;C (350&deg;F), in a large bowl mix 500g large oats, 150g chopped nuts, 90g seeds, 1 teaspoon salt and 1 teaspoon cinnamon, in a small bowl whisk together 80ml olive oil, 80ml maple syrup, and 1 teaspoon vanilla extract, pour the wet mixture over to the dry ingredients and stir until evenly coated, spread the mixture evenly on a baking tray lined with parchment paper. bake for 20-25 minutes until golden brown, the the granola cool completely then store in an airtight container."
+    },
+    {
+        "name": "Tomato soup",
+        "ingredients": ["shallots", "garlic cloves", "red chilli", "tomato puree", "tin with chopped tomatoes", "1.2 liters chicken stock", "salt", "black pepper"],
+        "instructions": "Heat a little oil into a large pot, fry the finely chopped shallots until soft and shiny, add 3 minced garlic cloves and 1/2 red chilli that has the seeds removed and is finely chopped, cook for another minute, stir in 3 tablespoons of tomato puree and let it fry for about 2 minutes, then add 3 tins of tinned tomatoes 400g each, crushing them lightly with a spoon, and bring to a boil, pour in 1.2L of chicken stock, stir, and let boil gently for 15-20 minutes, blend the soup until smooth (using a stick blender or regular), if it is too thick add more stock until the desired consistency, season with salt, pepper, and a pinch of sugar if needed to balance the acidity."
+    },
+    {
+        "name": "Quiche",
+        "ingredients": ["plain flour", "cold butter cut into pieces", "tablespoon salt", "egg yolk", "cold water", "diced bacon", "grated cheese", "milk", "eggs", "salt", "pepper", "Creme freiche"],
+        "instructions": "to make the crust mix 175g plain flour, salt, and 100g cold butter which is cut into pieces with your hands until it resembles fine crumbs, then add the egg yolk and 4 teaspoon water, mixing until fough comes together. add a little more water if needed, shape into a ball, wrap, and refrigerate for minimum 30 minutes, then roll out the dough thinly and place in a quiche tin, cover with foil or baking paper and fill with baking beans, bake at 180&deg;C (356&deg;F) for 15 minutes, remove foil and beans. To make the filling fry 100g diced bacon lightly, and in a bowl whisk together 3 eggs, 200ml milk, and 200ml creme freiche and season with salt and pepper. after this is done stir in 50g grated cheese and the diced bacon, and pour the mixture into the crust, bake for 20-25 minutes until set and lightly golden, serve warm."
+    },
+    {
+        "name": "Honey Garlic Pork chops",
+        "ingredients": ["pork chops", "salt", "pepper", "garlic powder", "olive oil", "unsalted butter", "garlic cloves", "cup honey", "cup water", "rice wine vinegar"],
+        "instructions": "preheat the over or grill to medium high and season 4 pork chops with salt, pepper, and garlic powder, heat 2 tablespoons of olive oil a and sear the meat until golden and cooked through, then set it aside, melt 1 tablespoon of unsalted butter in the same pan scraping up any brown bits from the bottom of the pan, saute the 6 cloves of minced garlic sautee the garlic until fragrant 30 seconds, add 1/4 cup honey, 1/4 cup water, and 2 tablespoons of rice wine vinegar, keep cooking until reduced and slightly thicker 3-4 minutes, then pour over the 4 pork chops and grill for 2 minutes."
+    }
+]
